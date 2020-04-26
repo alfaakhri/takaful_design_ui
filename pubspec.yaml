@@ -1,0 +1,40 @@
+name: takaful_design_ui
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  google_fonts: ^0.6.2
+  bottom_navy_bar: ^5.4.0
+  carousel_pro: ^1.0.0
+  flutter_launcher_icons: ^0.7.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.7.4
+flutter_icons:
+  android: true 
+  ios: true
+  image_path: "assets/logo_takaful.png"  
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/banner.jpg
+  - assets/people.png
+  - assets/informasi1.jpg
+  - assets/informasi2.jpg
+  - assets/logo_takaful.png
+  - assets/icon_kecelakaan.png
+  - assets/icon_perjalanan.png
+  - assets/icon_motor.png
+  - assets/icon_mikro.png
