@@ -1,8 +1,10 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:takaful_design_ui/page/about_product_page.dart';
+import 'package:takaful_design_ui/routes/router.gr.dart';
 import 'package:takaful_design_ui/utils/colors.dart';
 import 'package:takaful_design_ui/utils/ui_helpers.dart';
 
@@ -61,8 +63,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 UIHelper.verticalSpaceMedium,
                 InkWell(
                   onTap: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => AboutProductPage()));
+                    ExtendedNavigator.of(context)
+                        .pushNamed(Routes.aboutProductPage);
                   },
                   child: Container(
                     decoration: BoxDecoration(

@@ -32,6 +32,18 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "auto_route",
+      "rootUri": "file:///Users/boba/flutter/.pub-cache/hosted/pub.dartlang.org/auto_route-0.4.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.5"
+    },
+    {
+      "name": "auto_route_generator",
+      "rootUri": "file:///Users/boba/flutter/.pub-cache/hosted/pub.dartlang.org/auto_route_generator-0.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.5"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///Users/boba/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-1.0.5",
       "packageUri": "lib/",
@@ -374,6 +386,12 @@
       "languageVersion": "1.11"
     },
     {
+      "name": "source_gen",
+      "rootUri": "file:///Users/boba/flutter/.pub-cache/hosted/pub.dartlang.org/source_gen-0.9.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.5"
+    },
+    {
       "name": "source_span",
       "rootUri": "file:///Users/boba/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.5.5",
       "packageUri": "lib/",
@@ -464,7 +482,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2020-04-26T14:55:36.199421Z",
+  "generated": "2020-04-26T15:31:55.295829Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }

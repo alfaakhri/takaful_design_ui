@@ -1,8 +1,8 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:takaful_design_ui/page/my_home_page.dart';
+import 'package:takaful_design_ui/routes/router.gr.dart';
 import 'package:takaful_design_ui/utils/colors.dart';
-
-
 
 void main() => runApp(MyApp());
 
@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primaryColor: colorBackground),
       home: MyHomePage(),
+      builder: ExtendedNavigator<Router>(router: Router()),
     );
   }
 }
