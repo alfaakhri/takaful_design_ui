@@ -4,6 +4,8 @@ import 'package:takaful_design_ui/page/my_home_page.dart';
 import 'package:takaful_design_ui/routes/router.gr.dart';
 import 'package:takaful_design_ui/utils/colors.dart';
 
+//Created by Said Al Fakhri
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {

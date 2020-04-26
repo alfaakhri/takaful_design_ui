@@ -4,6 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import '../utils/colors.dart';
 import '../utils/ui_helpers.dart';
 
+//Created by Said Al Fakhri
+
 class AboutProductPage extends StatefulWidget {
   @override
   _AboutProductPageState createState() => _AboutProductPageState();

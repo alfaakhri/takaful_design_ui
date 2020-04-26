@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+//Created by Said Al Fakhri
+
 const Color colorBackground = const Color(0xFFFFFFFF);
 const Color colorBanner = const Color(0xFF8EE000);
 const Color colorBottomNav = const Color(0xFF7AC70C);

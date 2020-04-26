@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 
-/// Contains useful consts to reduce boilerplate and duplicate code
+//Created by Said al Fakhri
+
 class UIHelper {
-  // Vertical spacing constants. Adjust to your liking.
   static const double _VerticalSpaceVerySmall = 5.0;
   static const double _VerticalSpaceSmall = 10.0;
   static const double _VerticalSpaceMedium = 20.0;
   static const double _VerticalSpaceLarge = 60.0;
 
-  // Vertical spacing constants. Adjust to your liking.
   static const double _HorizontalSpaceVerySmall = 5.0;
   static const double _HorizontalSpaceSmall = 10.0;
   static const double _HorizontalSpaceMedium = 20.0;

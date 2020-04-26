@@ -8,6 +8,8 @@ import 'package:takaful_design_ui/routes/router.gr.dart';
 import 'package:takaful_design_ui/utils/colors.dart';
 import 'package:takaful_design_ui/utils/ui_helpers.dart';
 
+//Created by Said Al Fakhri
+
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
   final String title;
